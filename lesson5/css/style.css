@@ -1,0 +1,267 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
+}
+table{
+  height: 1080px;
+}
+.sidepart{
+  width: 400px;
+  margin-left: 100px;
+  display: inline-block;
+}
+.header{
+  background-color: #3333cc;
+  color: #fff;
+  width: 400px;
+  height: 1080px;
+}
+.header-photo{
+  text-align: center;
+}
+.profile{
+  margin-top: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.44), 0 0 7px rgba(0,0,0,0.44), 0 0 15px rgba(0,0,0,0.44);
+}
+.contacts, .language, .skills{
+  background-color: #000099;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.50px;
+  padding: 30px 250px 30px 30px;
+  margin-top: 33px;
+}
+.number{
+  padding-top: 30px;
+  font-size: 18px;
+  padding-left: 30px;
+  font-weight: normal;
+}
+.email{
+  font-size: 18px;
+  padding-top: 10px;
+  padding-left: 30px;
+  font-weight: normal;
+}
+.en{
+  font-size: 18px;
+  padding-left: 30px;
+  padding-right: 85px;
+  padding-top: 44px;
+  font-weight: normal;
+  display: inline-block;
+}
+.level{
+  font-size: 18px;
+}
+.b2{
+  padding-left: 215px;
+}
+.list-skills{
+  padding-top: 30px;
+  padding-left: 30px
+}
+li{
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+ul .list-skills {
+  list-style: none;
+}
+ul li::before {
+  content: "\2022";
+  color: rgba(255,255,255,0.6);
+  font-weight: bold;
+  display: inline-block;
+    width: 1em;
+}
+.main{
+  width: 700px;
+  display: inline-block;
+}
+h1{
+  font-size: 36px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+h2{
+  font-size: 30px;
+  padding-left: 30px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.icon1{
+  margin-left: 30px;
+}
+.icon2{
+ margin-left: 120px
+}
+.sity{
+  font-size: 18px;
+  display: inline-block;
+  margin-left: 8px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.age{
+  font-size: 18px;
+  display: inline-block;
+  margin-top: 40px;
+  margin-left: 8px;
+}
+.div-work{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.experience, .education, .courses, .qualities{
+  font-size: 18px;
+  margin-left: 30px;
+  color: #3333cc;
+  text-transform: uppercase;
+}
+hr{
+  border: none;
+  background-color: #3333cc;
+  width: 470px;
+  height: 0.95px;
+  display: inline-block;
+  margin-left: 10px;
+}
+.time-work, .time-education{
+  font-size: 18px;
+  margin-left: 30px;
+  display: inline-block;
+}
+.new{
+  font-size: 18px;
+  font-weight: bold;
+  display: inline-block;
+  margin-left: 110px
+}
+.work-web{
+  font-size: 18px;
+  font-style: italic;
+  margin-left: 260px;
+  margin-top: 20px;
+}
+.list-work{
+  margin-left: 260px;
+  margin-top: 20px;
+}
+ul.list-work {
+  list-style: none;
+}
+ul.list-work li::before {
+  content: "\2022";
+  color: rgba(0,0,0,0.6);
+  font-weight: bold;
+  display: inline-block;
+    width: 1em;
+}
+.div-education{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.col{
+  font-size: 18px;
+  font-weight: bold;
+  display: inline-block;
+  margin-left: 140px
+}
+.col-2{
+  font-size: 18px;
+  margin-left: 260px;
+  margin-top: 5px;
+}
+.div-courses{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.hr-courses{
+  border: none;
+  background-color: #3333cc;
+  width: 540px;
+  height: 0.95px;
+  display: inline-block;
+  margin-left: 10px;
+}
+.eshko{
+  font-size: 18px;
+  font-weight: bold;
+  display: inline-block;
+  margin-left: 140px
+}
+.eshko-2{
+  font-size: 18px;
+  font-weight: bold;
+  display: inline-block;
+  margin-left: 260px
+}
+.courses-web{
+  font-size: 18px;
+  font-style: italic;
+  margin-left: 260px;
+  margin-top: 20px;
+}
+.time-courses{
+  font-size: 18px;
+  margin-left: 30px;
+  display: inline-block;
+}
+.div-qualities{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.hr-qualities{
+  border: none;
+  background-color: #3333cc;
+  width: 428px;
+  height: 0.95px;
+  display: inline-block;
+  margin-left: 10px;
+}
+.list-q{
+  margin-left: 30px;
+  margin-top: -10px;
+  margin-right: 48px;
+  font-weight: normal;
+  display: inline-block;
+}
+ul.list-q{
+  list-style: none;
+}
+ul.list-q li::before {
+  content: "\2022";
+  color: rgba(0,0,0,0.6);
+  font-weight: bold;
+  display: inline-block;
+    width: 1em;
+}
+.list-q-2{
+  margin-top: -10px;
+  font-weight: normal;
+  display: inline-block;
+}
+ul.list-q-2{
+  list-style: none;
+}
+ul.list-q-2 li::before {
+  content: "\2022";
+  color: rgba(0,0,0,0.6);
+  font-weight: bold;
+  display: inline-block;
+    width: 1em;
+}
